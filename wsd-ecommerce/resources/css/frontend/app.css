@@ -1,0 +1,16 @@
+@import "../../../node_modules/tailwindcss";
+
+@import "@fortawesome/fontawesome-free/css/fontawesome.css";
+@import "@fortawesome/fontawesome-free/css/regular.css";
+@import "@fortawesome/fontawesome-free/css/solid.css";
+
+/* SEMPRE por último */
+@import "./fontawesome-override.css";
+
+/* MAPEAMENTO DE CAMINHOS ADICIONAIS */
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source "../../Modules/**/resources/views/**/*.blade.php";
+@source "../../library/Idea/**/resources/views/**/*.blade.php";
+@source "../../resources/views/frontend/**/*.blade.php";
+@source '../../storage/framework/views/*.php';
+

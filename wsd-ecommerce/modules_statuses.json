@@ -1,0 +1,15 @@
+{
+    "Catalog": true,
+    "Customers": true,
+    "Eav": true,
+    "Reports": true,
+    "Sales": true,
+    "System": true,
+    "Brands": true,
+    "Checkout": true,
+    "Cms": true,
+    "CatalogSearch": true,
+    "Payments": true,
+    "SalesRules": true,
+    "Site": false
+}
